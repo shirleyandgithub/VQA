@@ -17,13 +17,15 @@
 📂 数据集
 项目使用 COCO Dataset (2017) 数据集，具体文件如下：
 
-训练集图片	-	118,287 张	18GB，用于模型训练
+2017 Train images[118K/18G]  #共118287张图片
 
-验证集图片	-	5,000 张	1GB，用于效果验证
+2017 Val images [5K/1GB]    #共5,000张图片
 
-训练集标注	captions_train2017.json	241MB	仅包含图片描述（captions）*
+2017 Train/Val annotations [241MB]   #只用到captions*
 
-验证集标注	captions_val2017.json	-	同上
+captions_train2017.json
+
+captions_val2017.json
 
 注：标注文件仅用于图片描述（captions），不包含目标检测等其他任务的标注信息。
 
