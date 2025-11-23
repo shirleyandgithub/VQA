@@ -40,7 +40,7 @@ captions_val2017.json
    
 模型：使用 CLIP 的 ViT-B-32 模型提取图像和文本特征向量
 
-检索：向量归一化后，通过 Faiss 进行高效相似度检索
+检索： Faiss 检索
 
 2. 视觉问答（VQA）
 
